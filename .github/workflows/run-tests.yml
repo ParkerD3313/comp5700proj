@@ -15,10 +15,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.11"
+
+      - name: Install CPU torch
+        run: pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.txt --ignore-requires-python
 
       - name: Run Task 1 tests
         run: python -m pytest test_task1.py -v
