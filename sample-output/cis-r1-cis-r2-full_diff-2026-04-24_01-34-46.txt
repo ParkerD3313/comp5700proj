@@ -1,0 +1,559 @@
+644 or more restrictive,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+activate audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+amazon ecr - access controls,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+anonymous auth is not enabled,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+anonymousauth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+api endpoint configuration,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+api server auditing,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+authorization,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+authorization-webhook,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+automountserviceaccounttoken,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+aws eks key management service,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+aws iam authenticator for kubernetes,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+capability restriction,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+cisbench,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+cluster networking,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+cni plugin support,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+cni plugin supports network policies,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+cni plugin supports network policies.,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+container-optimized os,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+control plane components,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+control plane logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+create-repository,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+dedicated administrative accounts,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+default capability policy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+default service account,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+default-capabilities,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+default_service_account,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+describe,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+dormantaccounts,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+ecr:describe,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+eks cluster endpoint privacy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+eks.privileged,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+enable detailed logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+enable private endpoint access,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+encrypt sensitive data in transit,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+encrypt-all-sensitive-information-in-transit,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+encrypt_sensitive_data_at_rest,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+encrypted sensitive data at rest,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+encryption traffic,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+ensure kubernetes secrets are encrypted...,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+ensure the use of dedicated administrative accounts,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+ensure_secure_encryption,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+ensure_use_dedicated_administrative_accounts,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+escalate permission,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+establish and maintain dedicated computing resources,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+external_secrets_storage,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+firewall configuration,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+firewall implementation,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+grant-permission,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+host network flag,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+hostname port,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+iam role,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+iam roles for service account,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+identity and access management,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+image scanning,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+image scanning configuration,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubeconfig file ownership,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubeconfig file permissions are set to 644 or more restrictive,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubeconfig permissions,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubeconfig_owner,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubelet config file,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubelet config file location,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubelet config file permissions,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubelet configuration files,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubelet kubeconfig file ownership is set to root:root,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubelet-config.json,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubelet_args,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+kubernetes service configuration,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+limit_privilege_escalations,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+load balancer scope,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+mapped,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+minimize access to secrets,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+minimize admission of containers with allowprivilegeescalation,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+minimize cluster access to read-only for amazon ecr,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+minimize cluster access to read-only for amazon ecr (manual),ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+minimize wildcard use in roles and clusterroles (manual),ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+minimize wildcards in roles,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+minimize_admission_of_privileged_containers,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+mustrunasnonroot,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+network policies,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+networkpolicyenabled,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+networkurlfilters,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+node name,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+not specified,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+ownership,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+permissions,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+permissions check,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+pod security policies,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+podsecuritypolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+prefer using dedicated eks service accounts,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+prefer using secrets as files over secrets as environment variables,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+privateendpointaccess,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+privateendpointenabled,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+protect kernel defaults,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+public endpoint access,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+publicaccesscidrs,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+publicaccessdisabled,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+read-only port,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+recommendation set,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+recommendation set correctly,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+recommendation_set_correctly,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+recommended,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+recommended settings,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+restrict administrator privileges,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+restrict administrator privileges to dedicated administrator accounts,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+restrict_administrator_privileses,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+restricted,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+restricting administrator privileges to dedicated administrator accounts,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+root:,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+root:root,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+rotate certificates,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+rotate kubeletservercertificate,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+rotatekubeletservercertificate,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+secure configuration,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+secure_configuration_process,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+security of the cloud,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+security_of_secrets,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+standard hardening configuration templates,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+streaming-connection-idle-timeout,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+the security configuration of the data plane...,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+tls_certificates,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+unauthorized access,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+use a tool requiring a secondary authentication mechanism,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+use of dedicated administrative accounts,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+use unique passwords,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+use-container-optimized-os,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+verify rotatekubeletclientcertificate gate status,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+vulnerability scanning tool,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+webhook,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+webhooks,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+webhooks-enabled,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,NA
+--eventrecordqps,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+--make-iptables-util-chains,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+--streaming-connection-idle-timeout,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+-rotatekubeletservercertificate,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+/etc/kubernetes/kubelet/kubelet-config.json,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+/host,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+access to sensitive data,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+added aac for 4.1.7,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+added aac for 4.3.2,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+added aac for 4.4.1,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+added aac for 5.2.1,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+added aac for 5.3.3,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+allowprivilegeescalation,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+amazon ekr images,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+api server audit logs,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+approved container registries,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+audit,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+audit logging process,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+audit policy,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+auditing & remediation,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+auditlogging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+authauthentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+authorization mode,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+authorization-mode,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+automountserviceaccounttoken:,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+aws-auth configmap,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+benchmark,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+bind,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+build kit,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cis amazon elastic kubernetes service,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+client-ca-file,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cluster,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cluster access manager api,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cluster config permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cluster configuration,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cluster name,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cluster-access-management,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cluster-access-manager,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cluster-service-account,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+cluster_access_manager,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+clusteraccessmanagerapi,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+commandlinearguments,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+configure kubeconfig file permissions to 644 or more restrictiv,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+configure pods for service account access,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+controls,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+core,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+default,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+default value,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+detailed-audit-logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+disable --read-only-port,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+eks cluster endpoint,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+enable control plane logs,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+encrypt traffic to https load balancers,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+encryption,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+endpoint public access,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+endpointprivateacess,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+endpointpublicaccess,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+ensure that a client ca file is configured,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+ensure that default service account are not active used.,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+ensure that service account tokens are only mounted where necessary,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+ensure that the --read-only-port is disabled,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+ensure that the --read-only-port is disabled (automated),ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+ensure that the `--authorization-mode` argument is not set to alwaysallow,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+ensure that the anonymous auth is not enabled,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+establish policies and procedures,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+eventrecordqps,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+false,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+general,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+iam policy permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+iam roles for service accounts,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+iam-policy-permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+image vulnerability scanning,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+implement access controls,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+increase the cost of audit,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+internal only - general,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+internalonly,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kube-node-lease,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kube-public,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kube-system,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kubeconfig path,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kubelet config,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kubelet configuration file ownership,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kubelet kubeconfig,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kubelet kubeconfig file ownership,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kubelet service status,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kubernetes rbac users,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+kubernetes secret encryption,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+least privilege – using iam roles for service accounts,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+limit use of the bind, impersonate and escalate permissions in the kubernetes cluster,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+managed-services,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+minimize admission of privileged containers,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+minimum required permission level,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+minimum-permission-level,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+monitor and review,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+network restriction,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+network restrictions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+network-based url filters,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+network-policy,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+networking policies,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+page 43,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+page 44,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+private node,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+read-only-port,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+recommendation,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+repository/:,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+restrict access to the control plane endpoint (automated),ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+restrict creation of pods,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+restrict kubernetes api server access,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+rotate-kubelet-server-certificate,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+rotation certificates,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+scheduling,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+secretsmanagement,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+secretsprovider,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+secure network management,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+secure networking,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+security,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+security assessment,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+storage object viewer,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+system:controller:clusterrole-aggregation-controller,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+system:controllers:clusterrole-aggregation-controller,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+system:masters,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+terms of use,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+use of secure network management,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+use of secure network management and communication protocols,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+use secure network management,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+use secure network management and communication protocols,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+v7 12 boundary defense,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+warn,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+webhooks-authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,NA
+--rotate-certificates,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,3.2.10 Ensure that the --rotate-certificates argument is not present or is set to true (Manual)
+--rotate-certificates,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,This automated periodic rotation ensures that the there is no downtime due to expired certificates and thus addressing availability in the CIA (Confidentiality, Integrity, and Availability) security triad.
+--rotate-certificates,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,The `--rotate-certificates` setting causes the kubelet to rotate its client certificates by creating new CSRs as its existing credentials expire.
+allow privilege escalation,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Define a PSP that does not permit containers to allow privilege escalation.
+allow privilege escalation,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Carefully review RBAC controls to limit service account permissions.
+allow privilege escalation,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,do not generally permit containers to be run with the allowPrivilegeEscalation flag set to true.
+anonymous auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,3.2.1 Ensure that the Anonymous Auth is Not Enabled
+anonymous auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Disable anonymous requests to the Kubelet server.
+anonymous auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that the `--authorization-mode` argument is not set to AlwaysAllow (Automated)
+anonymous auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,....................................................................................................
+anonymous auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(Automated)
+anonymous auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the Anonymous Auth is Not Enabled
+anonymous authentication,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(Automated)
+anonymous authentication,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(Manual)
+anonymous authentication,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that the --hostname-override argument is not set.
+anonymous authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that all components are properly configured.
+anonymous authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Configure Anonymous Authentication
+anonymous authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Disable Anonymous Authentication
+anonymous authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(1) Enable Anonymous Authentication
+anonymous authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(3.2.1)
+anonymous authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(2) Configure User Roles Based on Anonymous Access Levels
+anonymous authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(5.1.2)
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Do not generally permit containers to be run with the allowPrivilegeEscalation flag set to true.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that all configurations related to anonymous access should be properly secured.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that anonymous auth is disabled.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Minimize Container Registries to only those approved (Manual)
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,.o o
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that the --read-only-port is disabled (Manual)
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* Check that /etc/systemd/system/kubelet.service.d/10-kubelet-args.conf does not define an executable argument for eventRecordQPS.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Limit use of the Bind, Impersonate and Escalation permissions in the Kubernetes cluster (Manual)
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Define and maintain role-based access control
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that appropriate anonymous authentication mechanisms are implemented.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Minimize the admission of containers with allowPrivilegeEscalation (Automated)
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,3.2.1 Ensure that automatic vulnerability scans are performed regularly.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Implement multi-factor authentication where feasible.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* Ensure that there is an entry for eventRecordQPS check.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that the client CA File is specified correctly.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that pod runs without root privileges.
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(Manual)
+anonymous-auth,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Determine and document the access rights necessary for each role within the enterprise to successfully carry out its assigned duties.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Updated recommendation for EKS specifics
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Added AAC for 4.1.7
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Prefer using secrets as files over secrets as environment variables.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Restrict Administrator Privileges to Dedicated Administrator Accounts
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that...
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the --read-only-port is disabled   2.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Not enabled
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that clusters are created with Private Endpoint ENABLED and Public Access DISABLED  
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the --rotate-certificates argument is not          present or is set to true   
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that every user with administrative account access uses a dedicated or secondary account for elevated activities.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,3.2.1 Ensure that the Anonymous Auth is Not Enabled.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Minimize wildcard use in Roles and ClusterRoles   
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the anonymous auth is Not Enabled
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Do not have any explicit rights assignments.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Page 159
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Add AAC for 4.3.2
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Consider the use of an external secrets storage (Manual)
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the default service account should not provide a service account token.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that a Client CA File is Configured   2.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(3.2.1 Establish and Maintain a Secure Configuration Process)
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(4.1.3 Minimize wildcard use in Roles and ClusterRoles)
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,No anonymous auth enabled
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the Cluster-Admin Role is only used where           required   
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,....................................................................................................................................
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Enable Kubelet certificate authentication.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure Network Policy is Enabled and set as appropriate
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the --eventRecordQPS argument is set to 0          or a level which ensures appropriate event capture   
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the --read-only-port is disabled   
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Minimize access to secrets   
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Conduct general computing activities, such as internet browsing, email, and productivity suite use, from the user’s primary, non-privileged account.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that appropriate authentication mechanisms are implemented.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the RotateKubeletServerCertificate argument          is set to true   
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Review the rights assigned to the default service account...
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the --streaming-connection-idle-timeout   
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Prefer using secrets as files over secrets as environment variables
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Implement secure methods for managing anonymous users.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the file owner is configured correctly.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(v7 Maintain Secure Images)
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Implement and Manage a Firewall on Servers
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Configure data access control lists based on a user’s need to know.
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the Anonymous Auth is Not Enabled   %
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,[3.2.1 Ensure that the kubelet kubeconfig file ownership is set to root:root (Automated)]
+anonymous-auth,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the --make-iptables-util-chains argument is          set to true   
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Enable detailed auditing logs for all critical events within the infrastructure.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that local logging has been enabled on all systems and networking devices.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Configure logs to capture relevant events such as user actions and modifications.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Check the service status when restarting kubelet.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Remediation Method 2: Configure Audit Logs via webhook
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,5.1.2 Minimize user access to Amazon ECR (Manual) Profile Applicability
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Configure log retention policies based on regulatory requirements.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that a Client CA File is Configured (Manual)
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,.o o
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,remediation method 2: If using executable arguments, edit the kubelet service file /etc/systemd/system/kubelet.service.d/10-kubelet-args.conf on each worker node and add the following parameter at the end of the KUBELET_ARGS variable string: ".----protect-kernel-defaults=true" "Reomedation Method 3: If using the api configz endpoint consider searching for the status of "protectKernelDefaults": by extracting the live configuration from the nodes running kubelet."
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Perform access control reviews of enterprise assets to validate that all privileges are authorized, on a recurring schedule at a minimum annually, or more frequently.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Verify that --hostname-override argument does not exist in the output of the above command.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that the kubelet configuration file ownership is set to root:root (Manual)
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Enabled
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Verify that there is at least one PSP which does not return true.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Reassess bi-annually, or more frequently.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,remediation method 3: If using the api configz endpoint consider searching for the status of "protectKernelDefaults": by extracting the live configuration from the nodes running kubelet.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Remediation: References: 1. https://aws.amazon.com/blogs/opensource/using-open-policy-agent-on-amazon-eks/
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Audit: Get the set of PSPs with the following command:kubectl get psp For each PSP, check if privileged is enabled:
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Review the users who have access to cluster roles or roles which provide the impersonate, bind or escalate privileges.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Set permissions to 644 or stricter
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Enable system logging to include detailed information such as an event source, date, user, timestamp, source addresses, destination addresses, and other useful elements.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,remediation: Remediation Method 1: If modifying the Kubelet config file, edit the kubelet-config.json file /etc/kubernetes/kubelet/kubelet-config.json and set the below parameter to true "protectKernelDefaults":
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Enable audit Logs
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that if the kubelet references a configuration file with the --config argument, that file has permissions of 644 or more restrictive.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Implement auditing mechanisms to track changes made to system settings.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that pod runs without root privileges.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(Manual)
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Verify that there is an entry for authentication: anonymous: enabled set to 0.
+audit logging,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* Remediation Method 1: If modifying the Kubelet config file, edit the kubelet-config.json file /etc/kubernetes/kubelet/kubelet-config.json and set the below parameter to 5 or a value greater or equal to 0 "eventRecordQPS": 5"
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the --audit-logging-level is not set to 0   %
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Audit method 2: Review the running configuration of a Kubelet via `/configz` endpoint.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Updated for EKS specifically
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,4. Ensure that all options are set to 'Enabled'.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that Namespaces have Network Policies defined
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the automountServiceAccountToken: false setting is in place for each default service account.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure audit logs are collected and managed   3.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Enable audit Logs (Automated)
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,2.1.1 Enable audit Logs
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that...
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Review the rights assigned to the default service account and ensure that it has no roles or cluster roles bound to it apart from the defaults.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,1. For each EKS Cluster in each region;
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(2) Define Audit Logs based on Specific Events
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,2. Go to 'Amazon EKS' > 'Clusters' > 'CLUSTER_NAME' > 'Configuration' > 'Logging'
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,When creating a Pod Security Policy, ['kube-system'] namespaces are excluded by default.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Updated audit and remediation methods Page 169
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Maintain secure images or templates for all systems in the enterprise based on the organization’s approved configuration standards.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that clusters are created with Private Nodes ENABLED AND PUBLIC ACCESS DELETED  
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that all users with administrative account access use a dedicated or secondary account for elevated activities.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures appropriate event capture
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,.....................................................................................
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Updated out of date guidance
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Verify that the audit logs are being monitored and managed.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Implement audit logging mechanisms.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,3. This will show the control plane logging configuration:
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(5.2 Use Unique Passwords)
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(4.4 Use Unique Passwords)
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,List the policies in use for each namespace in the cluster, ensure that each policy allows the admission of hostPID containers.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Regularly audit access and events via CloudTrail.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Audit logs are collected and managed
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Run the following command to find references to objects which use environment          variable secrets.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Updated remediation process
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Minimize the admission of containers wishing to share the host IPC namespace (Automated).
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Enable audit logs to track user activities within the system.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Implement and Manage a Firewall on Servers
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Not configured
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Audit method 1: Configure TLS on Apiserver.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Configure log retention policies according to compliance standards.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that audit logs are collected and managed.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Reviewed load balancer scope
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(1) Implement Audit Log Generation
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Test the configuration changes with representative lab systems.
+audit logging,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,.....................................................................................................................................
+audit logs,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,4.1.6 Ensure that Service Account Tokens are only mounted where necessary
+audit logs,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,3.2.1 Enable audit Logs
+audit logs,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,3.2.5 Ensure that the --stream-logging-enabled argument is not set to true (Automated)
+audit logs,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,2.1.1 Enable audit Logs
+audit logs,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,3.2.8 Ensure that the --rotate-certificates argument is not present or is set to true
+audit logs,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,3.2.5 Ensure that the --stream-logging-enabled argument is not set to 0
+audit logs,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,3.2.1 Ensure that the audit Logging is enabled
+authentication,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that the Anonymous Auth is Not Enabled
+authentication,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,x509
+authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,This will show the control plane logging configuration:
+authentication,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Click 'Manage logging.'
+cluster-admin,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Restrict administrator privileges to dedicated administrator accounts.
+cluster-admin,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that the cluster-admin role is only used where required (Manual) Profile Applicability: • Level 1 Description: The RBAC role cluster-admin provides wide-range powers over the environment and should be used only where and when needed. Rationale: Kubernetes provides a set of defaults roles where RBAC is used. Some of these roles such as cluster-admin provide wide-ranging privileges which should only be applied where absolutely necessary.
+cluster-admin,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Obtain a list of the principals who have access to the cluster-admin role by reviewing the clusterrolebinding output for each role binding that has access to the cluster-
+cluster-admin,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the cluster-admin role is only used where and when needed.
+cluster-admin,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Conduct general computing activities, such as internet browsing, email, and productivity suite use, from the user's primary, non-privileged account.
+cluster-admin,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,System:masters group as its principal.
+cluster-admin role,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,4.1.1 Ensure that the cluster-admin role is only used where required
+cluster-admin role,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictiive
+cluster-admin role,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Only use the cluster-admin role where required
+ecr:,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,grant access to create an Amazon ECR repository.
+ecr:,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,* ecr:
+ecr:,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,arn:aws:ecr:us-east-1:123456789012:repository/my-repo
+ecr:,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,*e cr:
+ecr:createrepository,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Granting someone permission to create an Amazon ECR repository.
+ecr:createrepository,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,ecr:
+enable audit logs,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(Consider Fargate for running untrusted workloads o o 5.6.1)
+enable audit logs,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure audit logs are collected and managed
+enable audit logs,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Automation
+encrypt sensitive data at rest,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(Storage-layer encryption)
+encrypt sensitive data at rest,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(Encryption sensitive data at rest)
+encrypt sensitive data at rest,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Enable 'Secrets Encryption' during Amazon EKS cluster creation as described in the References.
+endpoint private access,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* Enable private endpoint access to the Kubernetes API server*
+endpoint private access,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* Completely disable internet access to the API server.
+endpoint private access,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* Limit the IP addresses that can access your API server from the internet*
+endpoint private access,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Restrict access to the cluster’s control plane to only an allowlist of authorized IPs.
+endpoint private access,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Enable Endpoint Private Access to restrict access to the cluster’s control plane to only an allowlist of authorized IPs.
+endpoint private access,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,* Allow remote connections between your nodes and the API server.*
+endpoint private access,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,* Enable private endpoint access to the Kubernetes API server.*
+endpoint private access,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,* Disable Internet access to the API server.
+endpoint private access,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,* Limit the IP addresses that can access your API server from the internet.*
+endpointprivateaccess,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Enable private endpoint access to the Kubernetes API server
+endpointprivateaccess,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Disable internet access to the API server
+endpointprivateaccess,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Limit the IP addresses that can access your API server from the internet
+endpointprivateaccess,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that no public access is permitted.
+endpointprivateaccess,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Enable private endpoint access to the Kubernetes API server.
+endpointprivateaccess,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,[Ensure Private Endpoint Access is Enabled]
+endpointprivateaccess,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(True)
+endpointprivateaccess,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,aws eks update-cluster-config --region $AWS_REGION --name $CLUSTER_NAME --resources-vpc-config         endpointPrivateAccess=true,endpointPublicAccess=false
+endpointprivateaccess,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,[Enable private endpoint access to the Kubernetes API server]
+escalate,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Increasing the effectiveness of cluster roles.
+escalate,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,* Modifying cluster roles to increase a subject's right to that level.
+escalate,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the subject can modify cluster roles to which they are bound, increasing their rights to that level.
+file_ownership,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that the kubelet kubeconfig file ownership is set to root:root
+file_ownership,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Set the file ownership to root:root.
+image registry and image scanning,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,5.1.2 Minimize User Access to Amazon ECR (Manual)
+image registry and image scanning,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,5.1.1 Ensure Image Vulnerability Scanning Using Amazon ECR image scanning or a third party provider(Manual)
+image registry and image scanning,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+image registry and image scanning,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,5.1.2 Enable Audit Logging
+image registry and image scanning,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third party provider (Automated)
+image registry and image scanning,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Create a repository configured for scan on push (AWS CLI)
+impersonate,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Granting another user's privileges within the cluster.
+impersonate,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(Ensure strict adherence to resource constraints and authorization policies.)
+impersonate,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the impersonate privilege allows a subject to impersonate another user.
+impersonate,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,* Granting the ability to impersonate another user.
+kubeconfig file permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive.
+kubeconfig file permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure only administrators can modify the file.
+kubeconfig file permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Restrict file permissions to 644 or stricter.
+kubeconfig file permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the kubeconfig file permissions are set to 644 or more restrictive (Automated)
+kubelet configuration file permissions,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* Readable by admins on the system.
+kubelet configuration file permissions,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,*/readable_by_admins
+kubelet configuration file permissions,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* Stat -c %a /etc/kubernetes/kubelet/kubelet-config.json
+kubelet configuration file permissions,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* 644 or more restrictive
+kubelet configuration file permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,* Check the Kubelet Config File Permission Level*
+kubelet configuration file permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or more restrictivie
+kubelet configuration file permissions,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,* verify that the Kubelet service is running*
+minimize access to create pods,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Minimize access to create pods (Manual)
+minimize access to create pods,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Minimize access to create pods
+minimize access to create pods,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Restrict creation of pods to the smallest possible user group.
+minimize access to create pods,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(Automated)
+minimize access to create pods,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,...........................................................
+minimize access to create pods,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,75
+minimize access to create pods,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,71
+minimize access to create pods,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,73
+minimize access to create pods,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,77
+minimize user access to amazon ecr,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,o o 5.1.2 Minimize user access to Amazon ECR
+minimize user access to amazon ecr,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Only extract KDEs that are explicitly mentioned in the text.
+minimize user access to amazon ecr,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Minimize cluster access to read-only for Amazon ECR (Manual)
+minimize user access to amazon ecr,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Minimize container registries to only those approved (Manual)
+network policy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(Once there is any Network Policy in a namespace selecting a particular pod, that pod will reject any connections that are not allowed by any Network Policy.)
+network policy,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that all Namespaces have Network Policies defined
+network policy,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure Network Policy is Enabled and set as appropriate.
+network policy,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Implement and Manage a Firewall on Servers
+network policy,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,(Disable Network Policy)
+network policy,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Define Network Policies
+networkpolicies,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure CNI plugin supports network policy enforcement.
+networkpolicies,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that every namespace defined in the cluster has at least one Network Policy.
+networkpolicies,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that all Namespaces have Network Policies defined.
+networkpolicies,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,1. All namespaces defined in the cluster should have at least one Network Policy.
+networkpolicies,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that each namespace defined in the cluster has at least one Network Policy.
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(4.2.5) Minimize the admission of containers wishing to share the hostIPC namespace
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(4.2.9) Minimize the admission of containers wishing to sharethehostnamespace
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Enable Network Policy
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Rationale: By default, all pod to pod traffic within a cluster is allowed.
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(4.2.6) Minimize the admission of containers wishing to share thehostrootnamespace
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(4.2.5) Minimize the admission of containers wishing to share the hostprocessidnamespace
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Impact: Network Policy requires the Network Policy add-on. This add-on is included automatically when a cluster with Network Policy is created, but for an existing cluster, needs to be added before enabling Network Policy.
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Add Network Policy Add-On before enabling Network Policy
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Configure Network Policy settings
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(4.2.4) Minimize the admission of containers wishing to share the hostnetworknamespace
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(4.2.8) Minimize the admission of containers wishing to sharethehostnamespace
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(4.2.7) Minimize the admission of containers wishing to sharethehostclusternamespace
+networkpolicy,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,5.4.4 Ensure Network Policy is Enabled and set as appropriate (Manual) Profile Applicability:
+networkpolicy,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,3.2.1 Ensure that...
+networkpolicy,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates.
+private endpoint,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Leave the cluster endpoint public and specify which CIDR blocks can communicate with the cluster endpoint.
+private endpoint,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Configure the EKS cluster endpoint to be private.
+private endpoint,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Dedicated EKS Service Account Page
+private endpoint,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure clusters are created with Private Endpoint enabled.
+readonlyport,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,3.2.4 Ensure that the --read-only-port is disabled (Manual)
+readonlyport,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,set to 0
+readonlyport,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Disable the read-only port.
+restrict access to the control plane endpoint,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Restrict Access to the Control Plane Endpoint (Manual)
+restrict access to the control plane endpoint,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Restrict Access to the Control Plane Endpoint (Automated)
+rotatecertificate,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,True
+rotatecertificate,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,If the output of the command above does not include the --RotateCertificate          executable argument then check the Kubelet config file.
+rotatecertificate,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Ensure that the RotateCertificate argument is set to true.
+secrets encryption,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Enable 'Secrets Encryption' during Amazon EKS cluster creation as described in the links within the 'References'
+secrets encryption,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Enable the encryption provider support during EKS cluster creation.
+secrets encryption,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Use AWS Key Management Service (KMS) customer managed keys to provide envelope encryption of Kubernetes secrets stored in Amazon EKS.
+secrets encryption,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Enable ‘Secrets Encryption’ during Amazon EKS cluster creation as described in the References section.
+streaming connection idle timeout,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Ensure that the --stream-connection-idle-timeout argument is not set to 0 (Automated)
+streaming connection idle timeout,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,Minimize access to secrets(Manual)
+streaming connection idle timeout,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Consider increasing timeout values when dealing with long-running streams.
+streaming connection idle timeout,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Set the `--streaming-connection-idle-timeout` argument to a reasonable duration based on application usage.
+tls certificates,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,[Encrypted Traffic to HTTPS Load Balancers with TLS Certificates]
+tls certificates,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,(Manual)
+tls certificates,ABSENT-IN-cis-r2,PRESENT-IN-cis-r1,* Manual
+tls certificates,ABSENT-IN-cis-r1,PRESENT-IN-cis-r2,Encrypt traffic to HTTPS load balancers with TLS certificates.

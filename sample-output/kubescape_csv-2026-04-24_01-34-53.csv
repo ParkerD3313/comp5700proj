@@ -1,0 +1,18 @@
+FilePath,Severity,Control name,Failed resources,All Resources,Compliance score
+project-yamls,High,Applications credentials in configuration files,44,552,92.028984
+project-yamls,High,List Kubernetes secrets,202,914,77.899345
+project-yamls,Medium,Allow privilege escalation,283,386,26.683939
+project-yamls,Medium,Mount service principal,0,385,100.0
+project-yamls,Medium,Ingress and Egress blocked,338,422,19.905214
+project-yamls,Medium,Delete Kubernetes events,58,914,93.65427
+project-yamls,Medium,Administrative Roles,22,914,97.592995
+project-yamls,High,Host PID/IPC privileges,10,385,97.402596
+project-yamls,High,HostNetwork access,12,385,96.88312
+project-yamls,Medium,Access container service account,688,689,0.14513788
+project-yamls,Medium,Linux hardening,305,385,20.77922
+project-yamls,High,Privileged container,18,385,95.32468
+project-yamls,Low,PSP enabled,0,0,100.0
+project-yamls,Medium,Images from allowed registry,0,385,0.0
+project-yamls,Medium,Prefer using secrets as files over secrets as environment variables,12,385,96.88312
+project-yamls,Medium,Missing network policy,338,589,42.6146
+project-yamls,High,Anonymous user has RoleBinding,0,285,100.0

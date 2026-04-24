@@ -1,0 +1,976 @@
+element1:
+  name: internal only - general
+  requirements:
+  - Internal Only - General
+  - Never host a CIS Benchmark in any format (PDF, etc.) on a third-party (non-CIS
+    owned) site.
+element2:
+  name: audit logging
+  requirements:
+  - (1) Implement Audit Log Generation
+  - (2) Define Audit Logs based on Specific Events
+  - (4.4 Use Unique Passwords)
+  - (5.2 Use Unique Passwords)
+  - .
+  - '.....................................................................................'
+  - '.....................................................................................................................................'
+  - 1. For each EKS Cluster in each region;
+  - 2. Go to 'Amazon EKS' > 'Clusters' > 'CLUSTER_NAME' > 'Configuration' > 'Logging'
+  - 2.1.1 Enable audit Logging
+  - 2.1.1 Enable audit Logs
+  - 2.1.1 Enable audit logs
+  - '3. This will show the control plane logging configuration:'
+  - 3.2.7 Ensure that the --eventRecordQPS argument is set to 0 or a level which ensures
+    appropriate event capture
+  - 4. Ensure that all options are set to 'Enabled'.
+  - Audit logs are collected and managed
+  - 'Audit method 1: Configure TLS on Apiserver.'
+  - 'Audit method 2: Review the running configuration of a Kubelet via `/configz`
+    endpoint.'
+  - Configure log retention policies according to compliance standards.
+  - Enable audit Logs (Automated)
+  - Enable audit logs to track user activities within the system.
+  - Ensure audit logs are collected and managed   3.
+  - Ensure that Namespaces have Network Policies defined
+  - Ensure that all users with administrative account access use a dedicated or secondary
+    account for elevated activities.
+  - Ensure that audit logs are collected and managed.
+  - Ensure that clusters are created with Private Nodes ENABLED AND PUBLIC ACCESS
+    DELETED  
+  - Ensure that the --audit-logging-level is not set to 0   %
+  - Ensure that the --make-iptables-util-chains argument is set to true (Automated)
+  - 'Ensure that the automountServiceAccountToken: false setting is in place for each
+    default service account.'
+  - Ensure that...
+  - Implement and Manage a Firewall on Servers
+  - Implement audit logging mechanisms.
+  - List the policies in use for each namespace in the cluster, ensure that each policy
+    allows the admission of hostPID containers.
+  - Maintain secure images or templates for all systems in the enterprise based on
+    the organization’s approved configuration standards.
+  - Minimize the admission of containers wishing to share the host IPC namespace (Automated).
+  - Not configured
+  - Regularly audit access and events via CloudTrail.
+  - Review the rights assigned to the default service account and ensure that it has
+    no roles or cluster roles bound to it apart from the defaults.
+  - Reviewed load balancer scope
+  - Run the following command to find references to objects which use environment          variable
+    secrets.
+  - Test the configuration changes with representative lab systems.
+  - Updated audit and remediation methods Page 169
+  - Updated for EKS specifically
+  - Updated out of date guidance
+  - Updated remediation process
+  - Verify that the audit logs are being monitored and managed.
+  - When creating a Pod Security Policy, ['kube-system'] namespaces are excluded by
+    default.
+element3:
+  name: cis amazon elastic kubernetes service
+  requirements:
+  - Ensure that...
+  - 'Note:'
+element4:
+  name: terms of use
+  requirements:
+  - 'See the below link for our current terms of use:'
+  - https://www.cisecurity.org/cis-sec securesuite/cis-securesuite-membership-terms-of-use/
+element5:
+  name: anonymous-auth
+  requirements:
+  - (3.2.1 Establish and Maintain a Secure Configuration Process)
+  - (4.1.3 Minimize wildcard use in Roles and ClusterRoles)
+  - (v7 Maintain Secure Images)
+  - '....................................................................................................................................'
+  - 3.2.1 Ensure that the Anonymous Auth is Not Enabled
+  - 3.2.1 Ensure that the Anonymous Auth is Not Enabled.
+  - Add AAC for 4.3.2
+  - Added AAC for 4.1.7
+  - Conduct general computing activities, such as internet browsing, email, and productivity
+    suite use, from the user’s primary, non-privileged account.
+  - Configure data access control lists based on a user’s need to know.
+  - Consider the use of an external secrets storage (Manual)
+  - Do not have any explicit rights assignments.
+  - Enable Kubelet certificate authentication.
+  - Ensure Network Policy is Enabled and set as appropriate
+  - Ensure that a Client CA File is Configured   2.
+  - Ensure that all users with administrative account access use a dedicated or secondary
+    account for elevated activities.
+  - Ensure that appropriate authentication mechanisms are implemented.
+  - Ensure that clusters are created with Private Endpoint ENABLED and Public Access
+    DISABLED  
+  - Ensure that every user with administrative account access uses a dedicated or
+    secondary account for elevated activities.
+  - 'Ensure that the --eventRecordQPS argument is set to 0          or a level which
+    ensures appropriate event capture   '
+  - 'Ensure that the --make-iptables-util-chains argument is          set to true
+      '
+  - 'Ensure that the --read-only-port is disabled   '
+  - Ensure that the --read-only-port is disabled   2.
+  - 'Ensure that the --rotate-certificates argument is not          present or is
+    set to true   '
+  - Ensure that the --streaming-connection-idle-timeout argument is not set to 0 (Automated)
+  - 'Ensure that the --streaming-connection-idle-timeout   '
+  - Ensure that the Anonymous Auth is Not Enabled
+  - Ensure that the Anonymous Auth is Not Enabled   %
+  - 'Ensure that the Cluster-Admin Role is only used where           required   '
+  - 'Ensure that the RotateKubeletServerCertificate argument          is set to true
+      '
+  - Ensure that the anonymous auth is Not Enabled
+  - Ensure that the default service account should not provide a service account token.
+  - Ensure that the file owner is configured correctly.
+  - Ensure that...
+  - Implement and Manage a Firewall on Servers
+  - Implement secure methods for managing anonymous users.
+  - 'Minimize access to secrets   '
+  - 'Minimize wildcard use in Roles and ClusterRoles   '
+  - No anonymous auth enabled
+  - Not enabled
+  - Page 159
+  - Prefer using secrets as files over secrets as environment variables
+  - Prefer using secrets as files over secrets as environment variables.
+  - Restrict Administrator Privileges to Dedicated Administrator Accounts
+  - Review the rights assigned to the default service account...
+  - Updated recommendation for EKS specifics
+  - '[3.2.1 Ensure that the kubelet kubeconfig file ownership is set to root:root
+    (Automated)]'
+element6:
+  name: kubeconfig file permissions
+  requirements:
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive.
+  - Ensure only administrators can modify the file.
+  - Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+    (Automated)
+  - Restrict file permissions to 644 or stricter.
+element7:
+  name: kubelet kubeconfig file ownership
+  requirements:
+  - 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or
+    more restrictivie
+element8:
+  name: anonymous auth
+  requirements:
+  - (Automated)
+  - '....................................................................................................'
+  - Ensure that the Anonymous Auth is Not Enabled
+  - Not enabled
+element9:
+  name: minimize access to create pods
+  requirements:
+  - (Automated)
+  - '...........................................................'
+  - '71'
+  - '73'
+  - '75'
+  - '77'
+element10:
+  name: ensure that default service account are not active used.
+  requirements:
+  - '....................................................'
+  - '73'
+element11:
+  name: ensure that service account tokens are only mounted where necessary
+  requirements:
+  - '...................................................'
+  - '75'
+element12:
+  name: limit use of the bind, impersonate and escalate permissions in the kubernetes
+    cluster
+  requirements:
+  - '81'
+  - '87'
+  - Manual
+element13:
+  name: image vulnerability scanning
+  requirements:
+  - Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third
+    party provider (Automated)
+element14:
+  name: minimize user access to amazon ecr
+  requirements:
+  - Minimize cluster access to read-only for Amazon ECR (Manual)
+  - Minimize container registries to only those approved (Manual)
+element15:
+  name: restrict access to the control plane endpoint
+  requirements:
+  - Restrict Access to the Control Plane Endpoint (Automated)
+element16:
+  name: encrypt traffic to https load balancers
+  requirements:
+  - Encrypted traffic to HTTPS load balancers with TLS certificates (Manual).
+element17:
+  name: kubernetes secret encryption
+  requirements:
+  - Ensure Kubernetes Secrets are encrypted using Customer Master Keys (CMK) managed
+    in AWS KMS (Manual)
+element18:
+  name: network restriction
+  requirements:
+  - Ensure clusters are created with Private Endpoint Enabled and Public Access Disabled
+    (Automated)
+  - Restrict Access to the Control Plane Endpoint (Automated)
+element19:
+  name: benchmark
+  requirements:
+  - '* Apply the wrong Benchmark in this case will give invalid results.'
+element20:
+  name: build kit
+  requirements: []
+element21:
+  name: anonymous authentication
+  requirements:
+  - (1) Enable Anonymous Authentication
+  - (2) Configure User Roles Based on Anonymous Access Levels
+  - (3.2.1)
+  - (5.1.2)
+  - Configure Anonymous Authentication
+  - Disable Anonymous Authentication
+  - Ensure that all components are properly configured.
+element22:
+  name: security assessment
+  requirements:
+  - Monitor closely for issues during testing.
+element23:
+  name: security
+  requirements:
+  - '*Ensure that...'
+  - '*Establish Secure Configurations*'
+  - '*Implement security settings*'
+  - '*security shared responsibility between AWS and Amazon EKS customers.*'
+element24:
+  name: api server audit logs
+  requirements:
+  - '* Enabling control plane logs for Amazon EKS clusters.'
+  - '* Export control plane logs to a CloudWatch Log Group for persistence.'
+  - '* Exporting control plane logs to a CloudWatch Log Group.'
+  - '* Record all accepted and rejected requests in the cluster.'
+element25:
+  name: enable control plane logs
+  requirements:
+  - '* Provide details into all API request'
+  - '* Reduce our attack surface'
+element26:
+  name: auditlogging
+  requirements:
+  - Enable audit Logs (Automated)
+element27:
+  name: enable audit logs
+  requirements:
+  - Automation
+  - Ensure audit logs are collected and managed
+element28:
+  name: audit
+  requirements:
+  - Enable auditing across enterprise assets.
+  - Ensure that all options are set to 'Enabled'.
+  - For each EKS Cluster in each region; go to 'Amazon EKS' > 'Clusters' > 'CLUSTER_NAME'
+    > 'Configuration' > 'Logging'
+element29:
+  name: authentication
+  requirements:
+  - Click 'Manage logging.'
+  - 'This will show the control plane logging configuration:'
+element30:
+  name: scheduling
+  requirements:
+  - Click 'Save Changes.
+element31:
+  name: controls
+  requirements:
+  - Establish and Maintain an Audit Log Management Process.
+  - Review and Update Documentation Annually, or When Significant Enterprise Changes
+    Occur That Could Impact This.
+element32:
+  name: kubelet config
+  requirements:
+  - 'Ensure the audit logs are being collected and sent to a centralized logging system:'
+  - Set permissions to 644 or more restrictivelist   
+  - 'Verify audit logging is enabled for Kubernetes components:'
+  - kubectl get --raw /api/v1/nodes/${NODE_NAME}/proxy/configz | jq '.kubeletConfig.auditPolicy'
+element33:
+  name: audit logging process
+  requirements:
+  - 'Apply the audit policy configuration to the cluster:'
+  - 'Create or update the audit-policy.yaml to specify the audit logging configuration:'
+  - 'Ensure audit logs are forwarded to a centralized logging system like CloudWatch,
+    Elasticsearch, or another log management solution:'
+element34:
+  name: detailed-audit-logging
+  requirements:
+  - 'Apply the audit policy configuration to the cluster:'
+  - 'Verify audit logging is enabled for Kubernetes components:'
+element35:
+  name: audit policy
+  requirements:
+  - Create or update the audit-policy.yaml to specify the audit logging configuration
+element36:
+  name: file_ownership
+  requirements:
+  - Set the file ownership to root:root.
+element37:
+  name: kubelet service status
+  requirements:
+  - Check the status of the kubelet service.
+  - Verify that the kubelet service is 'active'.
+element38:
+  name: kubeconfig path
+  requirements:
+  - Locate the kubeconfig file (/var/lib/kubelet/kubeconfig).
+element39:
+  name: kubelet configuration file permissions
+  requirements:
+  - '* Check the Kubelet Config File Permission Level*'
+  - '* verify that the Kubelet service is running*'
+  - 3.1.3 Ensure that the kubelet configuration file has permissions set to 644 or
+    more restrictivie
+element40:
+  name: audit logs
+  requirements:
+  - 2.1.1 Enable audit Logging
+  - 3.2.1 Ensure that the audit Logging is enabled
+  - 3.2.5 Ensure that the --stream-logging-enabled argument is not set to 0
+  - 3.2.8 Ensure that the --rotate-certificates argument is not present or is set
+    to true
+element41:
+  name: kubelet configuration file ownership
+  requirements:
+  - Ensure that if the kubelet refers to a configuration file with the `--config argument`,
+    that file is owned by root:root.
+  - Verify the Kubelet service is running.
+element42:
+  name: /host
+  requirements:
+  - '* Run the following command (using the config file location identified in the
+    Audit step) Page 35 Internal Only - General chown root:root /etc/kubernetes/kubelet/config.json'
+element43:
+  name: commandlinearguments
+  requirements:
+  - '[https://github.com/kubernetes/kubernetes/blob/master/examples/k8s/pod/pod-spec.yaml]'
+element44:
+  name: authauthentication
+  requirements:
+  - '{"webhook": "true"}'
+element45:
+  name: page 43
+  requirements:
+  - '[Set the following parameter: Page 43]'
+element46:
+  name: page 44
+  requirements:
+  - '[Set the following parameter: Page 44]'
+element47:
+  name: webhooks-authentication
+  requirements:
+  - 'Enable Webhook Authentication by setting the following parameter:'
+  - 'Page 43  Internal Only - General  "authentication": { "webhook": { "enabled":
+    true } }'
+element48:
+  name: authorization-mode
+  requirements:
+  - 'Set the Authorization Mode to Webhook by setting the following parameter:'
+element49:
+  name: readonlyport
+  requirements:
+  - Disable the read-only port.
+element50:
+  name: ensure that the --read-only-port is disabled (automated)
+  requirements:
+  - (3.2.4)</string>
+element51:
+  name: /etc/kubernetes/kubelet/kubelet-config.json
+  requirements:
+  - Set the 'ReadOnlyPort' parameter to 0.
+element52:
+  name: secure networking
+  requirements:
+  - Ensure that only network ports, protocols, and services are running on systems
+    with validated business needs.
+element53:
+  name: streaming connection idle timeout
+  requirements:
+  - Consider increasing timeout values when dealing with long-running streams.
+  - Set the `--streaming-connection-idle-timeout` argument to a reasonable duration
+    based on application usage.
+element54:
+  name: use secure network management
+  requirements:
+  - Use secure network management and communication protocols (e.g., 802.1X, Wi-fi
+    protected access 2 (WPA2))Enterprise or greater.
+element55:
+  name: secure network management
+  requirements:
+  - Use secure network management and communication protocols (e.g., 802.1X, Wi-fi
+    Protected Access 2 (WPA2))Enterprise or greater.
+element56:
+  name: use of secure network management
+  requirements:
+  - Use secure network management and communication protocols (e.g., 802.1X, Wi-fi
+    Protected Access 2 (WPA2))Enterprise or greater.
+element57:
+  name: use of secure network management and communication protocols
+  requirements:
+  - (3.2.1 Use of Secure Network Management and Communication Protocols)
+  - (v7 9.2 Ensure Only Approved Ports, Protocols and Services Are Running)
+element58:
+  name: eventrecordqps
+  requirements:
+  - (The `--eventRecordQPS` argument should be set to 0 or a level which ensures appropriate
+    event capture (Automated))
+element59:
+  name: rotatecertificate
+  requirements:
+  - Ensure that the RotateCertificate argument is set to true.
+  - If the output of the command above does not include the --RotateCertificate          executable
+    argument then check the Kubelet config file.
+element60:
+  name: rotate-kubelet-server-certificate
+  requirements:
+  - verify rotate-kubelet-server-certificate is set to true.
+element61:
+  name: cluster-admin
+  requirements:
+  - Conduct general computing activities, such as internet browsing, email, and productivity
+    suite use, from the user's primary, non-privileged account.
+  - Ensure that the cluster-admin role is only used where and when needed.
+  - Ensure that the cluster-admin role is only used where required.
+  - Obtain a list of the principals who have access to the cluster-admin role by reviewing
+    the clusterrolebinding output for each role binding that has access to the cluster-
+  - Restrict administrator privileges to dedicated administrator accounts on enterprise
+    assets.
+  - System:masters group as its principal.
+element62:
+  name: system:controllers:clusterrole-aggregation-controller
+  requirements:
+  - ClusterRoleAggregationController
+  - ClusterRoleBinding
+element63:
+  name: system:masters
+  requirements:
+  - Ensure that all users with administrative account access uses a dedicated or secondary
+    account for elevated activities.
+  - Restrict administrator privileges to dedicated administrator accounts on enterprise
+    assets.
+element64:
+  name: system:controller:clusterrole-aggregation-controller
+  requirements:
+  - ClusterRoleBinding
+element65:
+  name: access to sensitive data
+  requirements:
+  - (Access to create new pods should be restricted)
+  - (Unless Pod Security Policies are implemented to restrict this access)
+element66:
+  name: restrict creation of pods
+  requirements:
+  - (Remove create access to pod objects in the cluster.)
+element67:
+  name: configure pods for service account access
+  requirements:
+  - '* Should be created for that pod, and rights granted to that service account.*'
+element68:
+  name: ensure that the anonymous auth is not enabled
+  requirements:
+  - 3.2.1 Ensure that the Anonymous Auth is Not Enabled
+  -      
+element69:
+  name: configure kubeconfig file permissions to 644 or more restrictiv
+  requirements:
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or morerestrictive
+element70:
+  name: general
+  requirements:
+  - By default the default service account allows for its service account token to
+    be mounted in pods in its namespace.
+  - Delete or disable any dormant accounts after a period of 45 days of inactivity,
+    where supported.
+element71:
+  name: clusteraccessmanagerapi
+  requirements:
+  - Use an automated tool, such as host-based Data Loss Prevention, to enforce access
+    controls to data even when data is copied off a system.
+element72:
+  name: 'false'
+  requirements:
+  - '* Regularly review pod and service account objects in the cluster to ensure that
+    the automountServiceAccountToken setting is false for pods and accounts that do
+    not explicitly require API server access.*'
+  - Ensure that the Anonymous Auth is Not Enabled
+element73:
+  name: aws-auth configmap
+  requirements:
+  - Centralized Management
+  - Improved Visibility, Auditing, and Compliance
+  - managing access control through the aws-auth ConfigMap
+element74:
+  name: cluster_access_manager
+  requirements:
+  - Future-Proofing and Alignment with AWS Best Practices
+  - Immediate Effect
+  - No More Cluster Downtime
+element75:
+  name: cluster-access-manager
+  requirements:
+  - '* Implement Impact on EKS RBAC and Service Accounts*'
+  - '* Improve Visibility, Auditing, and Compliance*'
+element76:
+  name: cluster access manager api
+  requirements:
+  - (Enable Cluster Access Manager API)
+  - '[Change cluster authentication mode to EKS access entry APIs]'
+element77:
+  name: cluster-access-management
+  requirements:
+  - Click EKS API to change cluster will source authenticated IAM          principals
+    only from EKS access entry APIs.
+  - 'To check if the Cluster Access Manager API is active on your Amazon EKS cluster,
+    you         can use the following AWS CLI command:'
+  - aws eks describe-cluster --name $CLUSTER_NAME --query          "cluster.accessConfig"
+    --output json
+element78:
+  name: impersonate
+  requirements:
+  - (Ensure strict adherence to resource constraints and authorization policies.)
+  - '* Granting the ability to impersonate another user.'
+  - Ensure that the impersonate privilege allows a subject to impersonate another
+    user.
+element79:
+  name: bind
+  requirements:
+  - (Implement proper delegation mechanisms between roles and resources.)
+  - '* Allowing the subject to add a binding to a cluster role or role.'
+  - '* Escalating the effect of a cluster role.'
+  - Ensure that the bind privilege allows the subject to add a binding to a cluster
+    role or role.
+element80:
+  name: escalate
+  requirements:
+  - '* Modifying cluster roles to increase a subject''s right to that level.'
+  - Ensure that the subject can modify cluster roles to which they are bound, increasing
+    their rights to that level.
+element81:
+  name: minimize admission of privileged containers
+  requirements:
+  - Minimize the admission of privileged containers (Automated)
+element82:
+  name: warn
+  requirements:
+  - Only extract KDEs that are explicitly mentioned in the text.
+element83:
+  name: default value
+  requirements:
+  - 'Default Value : 0 '
+element84:
+  name: cluster
+  requirements:
+  - Restrict Administrator Privileges to Dedicated Administrator Accounts
+element85:
+  name: core
+  requirements:
+  - Ensure that all users with administrative account access use a dedicated or secondary
+    account for elevated activities.
+  - Minimize the admission of containers wishing to share the host network namespace
+    (Automated).
+element86:
+  name: allow privilege escalation
+  requirements:
+  - do not generally permit containers to be run with the allowPrivilegeEscalation
+    flag set to true.
+element87:
+  name: allowprivilegeescalation
+  requirements:
+  - Allow administrators to elevate privileges without explicit configuration.
+element88:
+  name: network policy
+  requirements:
+  - (Disable Network Policy)
+  - Define Network Policies
+  - Ensure Network Policy is Enabled and set as appropriate.
+  - Ensure that all Namespaces have Network Policies defined
+  - Implement and Manage a Firewall on Servers
+element89:
+  name: networkpolicies
+  requirements:
+  - 1. All namespaces defined in the cluster should have at least one Network Policy.
+  - Ensure that each namespace defined in the cluster has at least one Network Policy.
+element90:
+  name: secretsprovider
+  requirements:
+  - '[Care needs to be taken to ensure access to secrets is carefully limited.]'
+element91:
+  name: secretsmanagement
+  requirements:
+  - '[Using an external secrets provider can ease the management of access to secrets,
+    especially where secrests are used across both Kubernetes and non-Kubernetes environments.]'
+element92:
+  name: default
+  requirements:
+  - The default namespace for objects with no other namespace
+element93:
+  name: kube-system
+  requirements:
+  - The namespace for objects created by the Kubernetes system
+element94:
+  name: kube-public
+  requirements:
+  - The namespace for public-readable ConfigMap
+element95:
+  name: kube-node-lease
+  requirements:
+  - The namespace for associated lease object for each node Page 108
+element96:
+  name: internalonly
+  requirements:
+  - The default namespace should not be used
+element97:
+  name: managed-services
+  requirements:
+  - 5.1 Ensure Image Vulnerability Scanning Using Amazon ECR image scanning or a third
+    party provider (Automated)
+element98:
+  name: image registry and image scanning
+  requirements:
+  - 5.1.1 Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a
+    third party provider (Automated)
+  - 5.1.2 Enable Audit Logging
+  - Create a repository configured for scan on push (AWS CLI)
+  - Ensure Image Vulnerability Scanning using Amazon ECR image scanning or a third
+    party provider (Automated)
+element99:
+  name: auditing & remediation
+  requirements:
+  - (Page 116)
+  - (Remedy before using IAM to manage access to Amazon ECR)
+element100:
+  name: 'ecr:'
+  requirements:
+  - '* ecr:'
+  - '*e cr:'
+  - arn:aws:ecr:us-east-1:123456789012:repository/my-repo
+element101:
+  name: 'repository/:'
+  requirements:
+  - arn:aws:ecr:us-east-1:123456789012:repository/
+  - arn:aws:ecr:us-east-1:123456789012:repository/my-repo
+element102:
+  name: ecr:createrepository
+  requirements:
+  - 'ecr:'
+element103:
+  name: storage object viewer
+  requirements:
+  - Configure the Cluster Service Account with Storage Object Viewer Role to only
+    allow read-only access to Amazon ECR.
+element104:
+  name: cluster-service-account
+  requirements:
+  - Configure the Cluster Service Account with Storage Object Viewer Role to only
+    allow read-only access to Amazon ECR.
+element105:
+  name: minimum required permission level
+  requirements:
+  - '* required to interact with the cluster'
+element106:
+  name: amazon ekr images
+  requirements:
+  - '- Must satisfy the following prerequisites.'
+  - '- The Amazon EKS worker node IAM role (NodeInstanceRole) that you use with your
+    worker nodes must possess the following IAM policy permissions for Amazon ECR.'
+element107:
+  name: iam policy permissions
+  requirements:
+  - '- Statement:'
+  - '- Version:'
+element108:
+  name: approved container registries
+  requirements:
+  - '- Utilize approved container registries.'
+element109:
+  name: minimum-permission-level
+  requirements:
+  - '* Required to interact with the cluster.'
+  - '* require minium permission level to interact with the cluster.'
+element110:
+  name: iam-policy-permissions
+  requirements:
+  - Page 119 Internal Only - General {... }
+element111:
+  name: establish policies and procedures
+  requirements:
+  - '* Establish policies and procedures that outline how ECR registries will be approved,
+    maintained, and monitored.'
+  - '* Guidelines for developers to follow when selecting a registry for their container
+    images.'
+  - Establish policies and procedures that outline how ECR registries will be approved,
+    maintained, and monitored.
+  - Include guidelines for developers to follow when selecting a registry for their
+    container images.
+element112:
+  name: implement access controls
+  requirements:
+  - '* Set up IAM policies and roles that restrict access to unapproved registries
+    or create a whitelist of approved registries.'
+  - Set up IAM policies and roles that restrict access to unapproved registries or
+    create a whitelist of approved registries.
+element113:
+  name: monitor and review
+  requirements:
+  - '* Continuously monitor and review the use of ECR registries to ensure that they
+    continue to meet your approval criteria.'
+  - '* Regularly reviewing access logs, scanning for vulnerabilities, and conducting
+    periodic audits.'
+  - Continuously monitor and review the use of ECR registries to ensure that they
+    continue to meet your approval criteria.
+  - Regularly reviewing access logs, scanning for vulnerabilities, and conducting
+    periodic audits.
+element114:
+  name: iam roles for service accounts
+  requirements:
+  - '* Ensure that the automountServiceAccountToken: false setting is in place for
+    each default service account.'
+element115:
+  name: least privilege – using iam roles for service accounts
+  requirements:
+  - By using the IAM roles for service accounts feature, you no longer need to provide
+    extended permissions to the worker node IAM role so that pods on that node can
+    call AWS APIs.
+  - You can scope IAM permissions to a service account, and only pods that use that
+    service account have access to Page 124 Internal Only - General
+element116:
+  name: 'automountserviceaccounttoken:'
+  requirements:
+  - Inplace for each default service account.
+element117:
+  name: encrypt sensitive data at rest
+  requirements:
+  - Enable 'Secrets Encryption' during Amazon EKS cluster creation as described in
+    the References.
+element118:
+  name: restrict access to the control plane endpoint (automated)
+  requirements:
+  - Enable Endpoint Private Access to restrict access to the cluster’s control plane
+    to only an allowlist of authorized IPs.
+  - Specifying an authorized network allows administrators to manage their clusters
+    remotely while maintaining enhanced security against unauthorized access.
+element119:
+  name: secrets encryption
+  requirements:
+  - Enable ‘Secrets Encryption’ during Amazon EKS cluster creation as described in
+    the References section.
+element120:
+  name: endpoint private access
+  requirements:
+  - '* Allow remote connections between your nodes and the API server.*'
+  - '* Disable Internet access to the API server.'
+  - '* Enable private endpoint access to the Kubernetes API server.*'
+  - '* Limit the IP addresses that can access your API server from the internet.*'
+element121:
+  name: cluster name
+  requirements:
+  - '* Specify CIDR blocks if needed.'
+  - '* Update your cluster accordingly using the AWS CLI to ensure Private Endpoint
+    Access is enabled.'
+  - Export CLUSTER_NAME=<your cluster name>
+element122:
+  name: endpoint public access
+  requirements:
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictiv
+element123:
+  name: network-based url filters
+  requirements:
+  - '* enable network-based URL filters that limit a system’s ability to connect to
+    websites not approved by the organization.'
+  - '* enforce network-based URL filters that limit a system’s ability to connect
+    to websites not approved by the organization.'
+  - '* ensure network-based URL filters that limit a system’s ability to connect to
+    websites not approved by the organization.'
+element124:
+  name: eks cluster endpoint
+  requirements:
+  - Configure public access with a set of whitelisted CIDR blocks and set private
+    endpoint access to enabled.
+  - Leave the cluster endpoint public and specify which CIDR blocks can communicate
+    with the cluster endpoint.
+element125:
+  name: endpointprivateaccess
+  requirements:
+  - (True)
+  - Enable private endpoint access to the Kubernetes API server.
+  - Ensure that no public access is permitted.
+  - '[Enable private endpoint access to the Kubernetes API server]'
+  - '[Ensure Private Endpoint Access is Enabled]'
+  - aws eks update-cluster-config --region $AWS_REGION --name $CLUSTER_NAME --resources-vpc-config         endpointPrivateAccess=true,endpointPublicAccess=false
+element126:
+  name: endpointpublicaccess
+  requirements:
+  - Disable public IP addresses for cluster nodes.
+  - '[Set endpointPublicAccess = false]'
+  - aws eks update-cluster-config --region $AWS_REGION --name $CLUSTER_NAME --resources-vpc-config         endpointPublicAccess=true,publicAccessCidrs="203.0.113.5/32",endpointPrivateA    access=true
+element127:
+  name: endpointprivateacess
+  requirements:
+  - (True)
+  - Allow outbound access
+  - Enable private node
+  - '[Enable private node}'
+element128:
+  name: v7 12 boundary defense
+  requirements:
+  - Boundary Defense
+  - Implement and manage a firewall on servers
+  - Page 136            Internal Only - General
+  - Page 136         Internal Only - General
+element129:
+  name: network-policy
+  requirements:
+  - By default, Network Policy is disabled.
+element130:
+  name: networkpolicy
+  requirements:
+  - 3.2.1 Ensure that...
+  - 5.4.5 Encrypt traffic to HTTPS load balancers with TLS certificates.
+element131:
+  name: use secure network management and communication protocols
+  requirements:
+  - 1.2.1 Implement network policy enforcement.
+  - 1.3.1 Configure network access controls based on roles.
+element132:
+  name: increase the cost of audit
+  requirements:
+  - Only extract KDEs that are explicitly mentioned in the text.
+element133:
+  name: --streaming-connection-idle-timeout
+  requirements:
+  - Not set to 0 (Automated)
+element134:
+  name: --make-iptables-util-chains
+  requirements:
+  - Not set to true (Automated)
+element135:
+  name: --eventrecordqps
+  requirements:
+  - Not set to 0 or a level ensuring adequate event capture (Automated)
+  - Not set to true (Automated)
+element136:
+  name: --rotate-certificates
+  requirements: []
+element137:
+  name: -rotatekubeletservercertificate
+  requirements:
+  - '- Not set to true (Automated)'
+  - Not set to true (Automated)
+element138:
+  name: rotation certificates
+  requirements:
+  - Ensure that the RotateKubeletServerCertificate argument is set to true (Automated)
+element139:
+  name: encryption
+  requirements:
+  - '* Customer Master Key (CMK) management via AWS KMS'
+element140:
+  name: network restrictions
+  requirements:
+  - '* Limit access to Control Plane endpoint.'
+  - '* Prevent clustering creation without private endpoints.'
+element141:
+  name: cluster configuration
+  requirements:
+  - '* Configure clusters with Private Endpoints enabled & Public Access disabled.'
+element142:
+  name: networking policies
+  requirements:
+  - '* Enable Network Policy and set it appropriately.'
+element143:
+  name: authorization mode
+  requirements:
+  - Never allowed
+element144:
+  name: ensure that a client ca file is configured
+  requirements:
+  - Only extract KDEs that are explicitly mentioned in the text.
+element145:
+  name: ensure that the --read-only-port is disabled
+  requirements:
+  - Only extract KDEs that are explicitly mentioned in the text.
+element146:
+  name: ensure that the `--authorization-mode` argument is not set to alwaysallow
+  requirements:
+  -      
+element147:
+  name: client-ca-file
+  requirements:
+  - Ensure that the --client-ca-file is Configured   %
+element148:
+  name: read-only-port
+  requirements:
+  - Ensure that the --read-only-port is Disabled   %
+element149:
+  name: restrict kubernetes api server access
+  requirements:
+  - Minimize user access to Amazon ECR
+element150:
+  name: disable --read-only-port
+  requirements:
+  - Ensure that the --read-only-port is disabled.
+element151:
+  name: kubelet kubeconfig
+  requirements:
+  - Set owner to root:root   
+element152:
+  name: private endpoint
+  requirements:
+  - Dedicated EKS Service Account Page
+  - Ensure clusters are created with Private Endpoint enabled.
+element153:
+  name: private node
+  requirements:
+  - Ensure clusters are created with Private Node.
+element154:
+  name: tls certificates
+  requirements:
+  - Encrypt traffic to HTTPS load balancers with TLS certificates.
+element155:
+  name: kubernetes rbac users
+  requirements:
+  - Manage Kubernetes RBAC users with AWS IAM Authenticator for Kubernetes or upgrade
+    to AWS CLI v1.16.156 or greater.
+element156:
+  name: cluster config permissions
+  requirements:
+  - 3.1.1 Ensure that the kubeconfig file permissions are set to 644 or more restrictive
+element157:
+  name: cluster-admin role
+  requirements:
+  - Only use the cluster-admin role where required
+element158:
+  name: added aac for 4.1.7
+  requirements:
+  - Avoid use of system:masters group
+element159:
+  name: added aac for 4.3.2
+  requirements:
+  - Ensure that all Namespaces have Network Policies defined
+element160:
+  name: added aac for 4.4.1
+  requirements:
+  - Prefer using secrets as files over secrets as environment variables
+element161:
+  name: added aac for 5.2.1
+  requirements:
+  - Prefer using dedicated EKS Service Account Page 167
+element162:
+  name: added aac for 5.3.3
+  requirements:
+  - Add Audit procedure for running untrusted workloads
+element163:
+  name: recommendation
+  requirements:
+  - (Updated default configuration)
+  - (Updated review load balancer scope)
+  - (update to reflect EKS specific)
+  - (updated audit and remediation methods Page 169)
+  - (updated audit procedure)
+  - (updated description)
+  - (updated impact statement)
+  - (updated out of date guidance)
+  - (updated recommendation for EKS specifics)
+  - (updated remediation process)

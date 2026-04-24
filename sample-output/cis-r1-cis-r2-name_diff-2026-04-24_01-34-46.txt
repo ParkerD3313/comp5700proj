@@ -1,0 +1,260 @@
+--eventrecordqps
+--make-iptables-util-chains
+--streaming-connection-idle-timeout
+-rotatekubeletservercertificate
+/etc/kubernetes/kubelet/kubelet-config.json
+/host
+644 or more restrictive
+access to sensitive data
+activate audit logging
+added aac for 4.1.7
+added aac for 4.3.2
+added aac for 4.4.1
+added aac for 5.2.1
+added aac for 5.3.3
+allowprivilegeescalation
+amazon ecr - access controls
+amazon ekr images
+anonymous auth is not enabled
+anonymousauth
+api endpoint configuration
+api server audit logs
+api server auditing
+approved container registries
+audit
+audit logging process
+audit policy
+auditing & remediation
+auditlogging
+authauthentication
+authorization
+authorization mode
+authorization-mode
+authorization-webhook
+automountserviceaccounttoken
+automountserviceaccounttoken:
+aws eks key management service
+aws iam authenticator for kubernetes
+aws-auth configmap
+benchmark
+bind
+build kit
+capability restriction
+cis amazon elastic kubernetes service
+cisbench
+client-ca-file
+cluster
+cluster access manager api
+cluster config permissions
+cluster configuration
+cluster name
+cluster networking
+cluster-access-management
+cluster-access-manager
+cluster-service-account
+cluster_access_manager
+clusteraccessmanagerapi
+cni plugin support
+cni plugin supports network policies
+cni plugin supports network policies.
+commandlinearguments
+configure kubeconfig file permissions to 644 or more restrictiv
+configure pods for service account access
+container-optimized os
+control plane components
+control plane logging
+controls
+core
+create-repository
+dedicated administrative accounts
+default
+default capability policy
+default service account
+default value
+default-capabilities
+default_service_account
+describe
+detailed-audit-logging
+disable --read-only-port
+dormantaccounts
+ecr:describe
+eks cluster endpoint
+eks cluster endpoint privacy
+eks.privileged
+enable control plane logs
+enable detailed logging
+enable private endpoint access
+encrypt sensitive data in transit
+encrypt traffic to https load balancers
+encrypt-all-sensitive-information-in-transit
+encrypt_sensitive_data_at_rest
+encrypted sensitive data at rest
+encryption
+encryption traffic
+endpoint public access
+endpointprivateacess
+endpointpublicaccess
+ensure kubernetes secrets are encrypted...
+ensure that a client ca file is configured
+ensure that default service account are not active used.
+ensure that service account tokens are only mounted where necessary
+ensure that the --read-only-port is disabled
+ensure that the --read-only-port is disabled (automated)
+ensure that the `--authorization-mode` argument is not set to alwaysallow
+ensure that the anonymous auth is not enabled
+ensure the use of dedicated administrative accounts
+ensure_secure_encryption
+ensure_use_dedicated_administrative_accounts
+escalate permission
+establish and maintain dedicated computing resources
+establish policies and procedures
+eventrecordqps
+external_secrets_storage
+false
+firewall configuration
+firewall implementation
+general
+grant-permission
+host network flag
+hostname port
+iam policy permissions
+iam role
+iam roles for service account
+iam roles for service accounts
+iam-policy-permissions
+identity and access management
+image scanning
+image scanning configuration
+image vulnerability scanning
+implement access controls
+increase the cost of audit
+internal only - general
+internalonly
+kube-node-lease
+kube-public
+kube-system
+kubeconfig file ownership
+kubeconfig file permissions are set to 644 or more restrictive
+kubeconfig path
+kubeconfig permissions
+kubeconfig_owner
+kubelet config
+kubelet config file
+kubelet config file location
+kubelet config file permissions
+kubelet configuration file ownership
+kubelet configuration files
+kubelet kubeconfig
+kubelet kubeconfig file ownership
+kubelet kubeconfig file ownership is set to root:root
+kubelet service status
+kubelet-config.json
+kubelet_args
+kubernetes rbac users
+kubernetes secret encryption
+kubernetes service configuration
+least privilege – using iam roles for service accounts
+limit use of the bind, impersonate and escalate permissions in the kubernetes cluster
+limit_privilege_escalations
+load balancer scope
+managed-services
+mapped
+minimize access to secrets
+minimize admission of containers with allowprivilegeescalation
+minimize admission of privileged containers
+minimize cluster access to read-only for amazon ecr
+minimize cluster access to read-only for amazon ecr (manual)
+minimize wildcard use in roles and clusterroles (manual)
+minimize wildcards in roles
+minimize_admission_of_privileged_containers
+minimum required permission level
+minimum-permission-level
+monitor and review
+mustrunasnonroot
+network policies
+network restriction
+network restrictions
+network-based url filters
+network-policy
+networking policies
+networkpolicyenabled
+networkurlfilters
+node name
+not specified
+ownership
+page 43
+page 44
+permissions
+permissions check
+pod security policies
+podsecuritypolicy
+prefer using dedicated eks service accounts
+prefer using secrets as files over secrets as environment variables
+private node
+privateendpointaccess
+privateendpointenabled
+protect kernel defaults
+public endpoint access
+publicaccesscidrs
+publicaccessdisabled
+read-only port
+read-only-port
+recommendation
+recommendation set
+recommendation set correctly
+recommendation_set_correctly
+recommended
+recommended settings
+repository/:
+restrict access to the control plane endpoint (automated)
+restrict administrator privileges
+restrict administrator privileges to dedicated administrator accounts
+restrict creation of pods
+restrict kubernetes api server access
+restrict_administrator_privileses
+restricted
+restricting administrator privileges to dedicated administrator accounts
+root:
+root:root
+rotate certificates
+rotate kubeletservercertificate
+rotate-kubelet-server-certificate
+rotatekubeletservercertificate
+rotation certificates
+scheduling
+secretsmanagement
+secretsprovider
+secure configuration
+secure network management
+secure networking
+secure_configuration_process
+security
+security assessment
+security of the cloud
+security_of_secrets
+standard hardening configuration templates
+storage object viewer
+streaming-connection-idle-timeout
+system:controller:clusterrole-aggregation-controller
+system:controllers:clusterrole-aggregation-controller
+system:masters
+terms of use
+the security configuration of the data plane...
+tls_certificates
+unauthorized access
+use a tool requiring a secondary authentication mechanism
+use of dedicated administrative accounts
+use of secure network management
+use of secure network management and communication protocols
+use secure network management
+use secure network management and communication protocols
+use unique passwords
+use-container-optimized-os
+v7 12 boundary defense
+verify rotatekubeletclientcertificate gate status
+vulnerability scanning tool
+warn
+webhook
+webhooks
+webhooks-authentication
+webhooks-enabled
