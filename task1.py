@@ -238,9 +238,6 @@ def extract_kdes(pipe, doc1, doc2, output_filename):
                 return [parsed]
             return parsed
         except json.JSONDecodeError as e:
-            print(f"BROKEN JSON ({e}):")
-            print(json_str) 
-            print("---")
             return None
 
     def process_doc(doc):
